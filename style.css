@@ -1,0 +1,76 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe760;
+}
+
+.manchete {
+    position: relative;
+    width: 600px;
+    height: 600px; 
+}
+
+.manchete .words {
+    position: absolute;
+    bottom: 0px;
+    left: 48px;
+    width: 374px;
+    height: 214px;
+}
+
+.manchete .words input {
+    width: 100%;
+    color: #fff3dd;
+    background: transparent;
+    border: none;
+    text-align: center;
+    font-size: 50px;
+    transform: scale(1, 1.6);
+    height: 46px;
+    margin: 12px 0;
+    padding: 0;
+}
+
+.manchete .words input:not([disabled]):hover,
+.manchete .words input:focus {
+    background: #fff3dd;
+    color: #e36652;
+}
+
+.manchete img {
+    width: 600px;
+    height: 600px; 
+}
+
+button {
+    position: fixed;
+    font-size: 40px;
+    transform: scale(1, 1.6);
+    height: 50px;
+    line-height: 1;
+    margin: 20px 0;
+    color: #fff3dd;
+    background: #de588a;
+    border: 4px solid #73c2d1;
+}
+
+button:hover {
+    color: #de588a;
+    background: #fff3dd;
+    cursor: pointer;
+}
