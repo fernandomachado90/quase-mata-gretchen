@@ -1,7 +1,7 @@
 # quase-mata-gretchen
 
-Open Source Quase Mata Gretchen (meme generator)
+Open Source Quase Mata Gretchen (meme)
 
-## Thanks to
+## Thanks
 
 - [html2canvas](https://html2canvas.hertzen.com/)
